@@ -5,6 +5,10 @@ end
 # homebrew path
 set PATH /opt/homebrew/bin/  $PATH
 
+# nodebrew path
+set -x PATH $HOME/.nodebrew/current/bin $PATH
+
+
 # alias
 alias tm='tmux'
 alias vi='nvim'
