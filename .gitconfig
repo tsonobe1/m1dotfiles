@@ -31,3 +31,5 @@
   iop = !"f(){ gh issue view -w $1 ;};f"
   il = !"gh issue list"
   ilop = !"gh issue list -w"
+[core]
+	excludesfile = /Users/tsonobe/.gitignore_global
