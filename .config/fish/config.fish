@@ -6,7 +6,7 @@ end
 set PATH /opt/homebrew/bin/  $PATH
 
 # nodebrew path
-set -x PATH $HOME/.nodebrew/current/bin $PATH
+set -x PATH $HOME/.nodebrew/current/bin:$PATH
 
 
 # alias
